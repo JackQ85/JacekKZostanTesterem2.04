@@ -60,7 +60,7 @@ public class UltimateQATest extends PageSetup {
         listOfcars.add("opel");
         listOfcars.add("audi");
         // xpath wyszukiwanie po tekscie: //div[text()='Select an option an validate that it is selected']
-        WebElement dropdown = driver.findElement(By.xpath("//div[text()='Select an option an validate that it is selected']"));
+        WebElement dropdown = driver.findElement(By.xpath("//div[text()='Select an option and validate that it is selected']"));
 
         for(int i=0; i<listOfcars.size(); i++) {
             dropdown.click();
